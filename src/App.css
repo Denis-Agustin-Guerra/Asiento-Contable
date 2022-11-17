@@ -1,0 +1,48 @@
+.App {
+  text-align: left;
+  padding: 0;
+}
+.NavBar{
+  width:100%;
+  background:rgb(37, 37, 37);
+  height: 10vh;
+  color:#fff;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.NavBar .title{
+  padding-left: 10px;
+  font-size:18px;
+}
+.NavBar .exit{
+  padding-right: 10px;
+}
+
+.SideBar{
+  height:90vh;
+  background:rgb(236, 236, 236);
+}
+
+.Content{
+  height:84vh;
+  overflow:scroll;
+}
+.utn-logo{
+  margin: 5% 400px;
+  width:300px;
+}
+.home-text{
+  padding:10px 200px;
+}
+.heigth-10{
+  height:10vh;
+}
+.link{
+  display:flex;
+  text-decoration: none;
+  width:100%;
+}
+.link:visited{
+  color:initial;
+}
